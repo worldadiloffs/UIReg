@@ -64,15 +64,15 @@
             app:boxCornerRadiusBottomStart="12dp"
             app:boxCornerRadiusTopEnd="12dp"
             app:boxCornerRadiusTopStart="12dp"
-            app:startIconDrawable="@drawable/person"
-            android:background="@drawable/input_back"
-            app:startIconTint="#EBEBF5"
-            android:textColorHint="#EBEBF5">
+            app:endIconMode="clear_text"
+            android:textColorHint="#EBEBF5"
+            app:startIconDrawable="@drawable/person">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/input_back"
+                android:background="#33000000"
+                android:drawableTint="#EBEBF5"
                 android:textSize="17sp" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -84,20 +84,16 @@
             android:hint="Email"
             app:boxCornerRadiusBottomEnd="12dp"
             app:boxCornerRadiusBottomStart="12dp"
-            android:background="@drawable/input_back"
             app:boxCornerRadiusTopEnd="12dp"
             app:boxCornerRadiusTopStart="12dp"
             app:endIconMode="clear_text"
             app:hintTextColor="#EBEBF5"
-
-            app:startIconDrawable="@drawable/ic_outline_email_24"
-            app:startIconTint="#EBEBF5"
-            android:textColorHint="#EBEBF5">
+            app:startIconDrawable="@drawable/ic_outline_email_24">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/input_back"
+                android:background="#33000000"
                 android:textSize="17sp" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -108,19 +104,16 @@
             android:hint="Password"
             app:boxCornerRadiusBottomEnd="12dp"
             app:boxCornerRadiusBottomStart="12dp"
-            android:background="@drawable/input_back"
             app:boxCornerRadiusTopEnd="12dp"
             app:boxCornerRadiusTopStart="12dp"
             app:endIconMode="clear_text"
             app:hintTextColor="#EBEBF5"
-            app:startIconDrawable="@drawable/ic_outline_lock_24"
-            app:startIconTint="#EBEBF5"
-            android:textColorHint="#EBEBF5">
+            app:startIconDrawable="@drawable/ic_outline_lock_24">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/input_back"
+                android:background="#33000000"
                 android:textSize="17sp" />
 
         </com.google.android.material.textfield.TextInputLayout>
